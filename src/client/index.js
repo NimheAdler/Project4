@@ -1,5 +1,7 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { checkUrl } from './js/formHandler'
+
 import './styles/resets.scss'
 import './styles/base.scss'
 import './styles/footer.scss'
@@ -19,5 +21,6 @@ form.addEventListener("submit", (evt) => {
 
 export {
     checkForName,
-    handleSubmit
+    handleSubmit,
+    checkUrl
 }
