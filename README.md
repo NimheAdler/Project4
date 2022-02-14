@@ -1,8 +1,8 @@
-# Udacity Front End Web Developer Nanodegree Program. Project 4.
-## Evaluate a news article with Natural Language Processing.
+# Udacity Front End Web Developer Nanodegree Program. Project 5.
+## Travel App.
 
-The goal for this project is to learn how to build a web tool that allows users to run Natural Language Processing on articles or blogs found on other websites. NLP is the ability of an application to understand the human language, written or oral. 
-In this project the NLP functionality is provided by the [Meaning Cloud API](https://www.meaningcloud.com/products/sentiment-analysis).
+The goal for this project is to put all of the skills we have learned during the course building our own custom travel app.
+The project includes a simple form where the users can enter the location they are traveling to and the date they are leaving. Because of that this project requires us to build out a travel app that, at a minimum, obtains a desired trip location & date from the user, and displays weather and an image of the location using information obtained from external APIs.
 
 ### This project showcases the following front-end dev skills:
  - Use of **Express** as a back-end framework.
@@ -43,17 +43,20 @@ In this project the NLP functionality is provided by the [Meaning Cloud API](htt
 - workbox-webpack-plugin
 
 ## Installation instructions
-1. Clone the repository in Project 4 at https://github.com/NimheAdler.
+1. Clone the repository in Project 5 at https://github.com/NimheAdler.
 2. Install the dependencies
 	- Open a terminal or command prompt
 	- Navigate to the project root folder
 	- Run `npm install`
 
-3. Sign up for an API key at [MeaningCloud.com](https://www.meaningcloud.com/developer/create-account).
+3. Sign up for the required API keys at:
+	- [Geonames](http://www.geonames.org/export/web-services.html).
+	- [Weatherbit](https://www.weatherbit.io/account/create).
+	- [Pixabay](https://pixabay.com/api/docs/).
 
 4. Configure environment variables using the dotenv package
 	- Create a new `.env` file in the root folder of your project
-	- Store the API key in the `.env` file like this:
+	- Store the API keys in the `.env` file like this:
 	```
 	API_KEY=**************************
 	```
